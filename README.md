@@ -3,3 +3,16 @@
 
 A little baby program that just counts down.  Maybe some day it will be
 daemonized and somewhat good.  That day is not today.
+
+### Planned Features
+- [ ] count down(obviously)
+- [ ] keep track of multiple timers(daemon?)
+- [ ] log to file(s)
+- Timer operations
+    * [ ] add
+    * [ ] remove
+    * [ ] list
+    * [ ] edit
+    * [ ] save
+    * [ ] load
+- [ ] take over world
