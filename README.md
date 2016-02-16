@@ -8,6 +8,7 @@ daemonized and somewhat good.  That day is not today.
 - [ ] count down(obviously)
 - [ ] keep track of multiple timers(daemon?)
 - [ ] log to file(s)
+- [ ] OS agnostic pop-up window
 - Timer operations
     * [ ] add
     * [ ] remove
