@@ -14,6 +14,8 @@ daemonized and somewhat good.  That day is not today.
     * [ ] remove
     * [ ] list
     * [ ] edit
-    * [ ] save
-    * [ ] load
+    * [ ] save(what?)
+    * [ ] load(what?)
+    * [ ] pause
+    * [ ] restart
 - [ ] take over world
