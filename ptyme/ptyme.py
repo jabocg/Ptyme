@@ -1,8 +1,11 @@
-#!/bin/env python3
+#!/usr/bin/env python3
 # python 3
 
 import sys
+import logging
 
+logging.baseConfig(format='%(asctime)s %(message)s',
+                   dateftm='%Y-%m-%dT%H:%M:%S')
 
 def main():
     print(sys.argv)
@@ -36,31 +39,6 @@ def parseArgsChar(timeStr):
     print('mins: ', minutes)
     print('sec: ', seconds)
 
-
-# while this works, it only works when _h_m_s format
-# might want to not do that
-def parseArgs(timeStr):
-    time = timeStr.split('h')
-    if 'm' not in time[0] and 'n' not in time[0]:
-        hours = time[0]
-    else:
-        hours = 0
-    print(time)
-    print(hours)
-    time = time[1].split('m')
-    if 's' not in time[0]:
-        minutes = time[0]
-    else:
-        minutes = 0
-    print(time)
-    print(minutes)
-    time = time[1].split('s')
-    if time:
-        seconds = time[0]
-    else:
-        seconds = 0
-    print(time)
-    print(seconds)
 
 if __name__ == "__main__":
     main()
