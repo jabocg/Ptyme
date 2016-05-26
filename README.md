@@ -6,7 +6,7 @@ daemonized and somewhat good.  That day is not today.
 
 ### Planned Features
 - [ ] count down(obviously)
-- [ ] keep track of multiple timers(daemon?)
+- [ ] keep track of multiple timers(daemon?) _(write PID to file)_
 - [ ] log to file(s)
 - [ ] OS agnostic pop-up window
 - Timer operations
